@@ -1,17 +1,27 @@
 .canvas {
     width: 500px;
     height: 600px;
-    background-color: #06004d;
+    background-color: #08004d;
+    overflow: hidden;
   }
+  
   .frame {
-    border: 50px solid black; 
+    border: 50px solid black;
     width: 500px;
-    padding: 50px 50px;
+    padding: 50px;
     margin: 20px auto;
   }
+  
   .one {
     width: 425px;
     height: 150px;
-    background-color: #ef628c;
+    background-color: #ef6296;
     margin: 20px auto;
+  }
+  
+  .two {
+    width: 475px;
+    height: 200px;
+    background-color: #62018f;
+    margin: auto;
   }
